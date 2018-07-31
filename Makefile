@@ -192,6 +192,9 @@ delete:
 sideload:
 	python -m ledgerblue.loadApp $(APP_LOAD_PARAMS)
 
+sideloadcmd:
+	@echo python -m ledgerblue.loadApp $(APP_LOAD_PARAMS)
+
 # import generic rules from the sdk
 include $(BOLOS_SDK)/Makefile.rules
 
