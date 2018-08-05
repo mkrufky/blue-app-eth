@@ -1540,6 +1540,9 @@ tokenDefinition_t* getKnownToken() {
         case CHAIN_KIND_ELLAISM:
             numTokens = NUM_TOKENS_ELLAISM;
             break;
+        case CHAIN_KIND_ETHER1:
+            numTokens = NUM_TOKENS_ETHER1;
+            break;
     }
     for (i=0; i<numTokens; i++) {            
         switch(chainConfig->kind) {
@@ -1584,6 +1587,9 @@ tokenDefinition_t* getKnownToken() {
                 break;
             case CHAIN_KIND_ELLAISM:
                 currentToken = PIC(&TOKENS_ELLAISM[i]);
+                break;
+            case CHAIN_KIND_ETHER1:
+                currentToken = PIC(&TOKENS_ETHER1[i]);
                 break;
         } 
         if (os_memcmp(currentToken->address, tmpContent.txContent.destination, 20) == 0) {
