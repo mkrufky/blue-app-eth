@@ -222,6 +222,9 @@ load: all
 delete:
 	python -m ledgerblue.deleteApp $(COMMON_DELETE_PARAMS)
 
+deletecmd:
+	@echo python -m ledgerblue.deleteApp $(COMMON_DELETE_PARAMS)
+
 sideload:
 	python -m ledgerblue.loadApp $(APP_LOAD_PARAMS)
 
