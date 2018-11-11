@@ -1495,6 +1495,9 @@ tokenDefinition_t* getKnownToken() {
             break;
         case CHAIN_KIND_CALLISTO:
             numTokens = NUM_TOKENS_CALLISTO;
+            break;
+        case CHAIN_KIND_CALLISTOT:
+            numTokens = NUM_TOKENS_CALLISTOT;
             break;            
         case CHAIN_KIND_ETHERSOCIAL:
             numTokens = NUM_TOKENS_ETHERSOCIAL;
@@ -1555,6 +1558,9 @@ tokenDefinition_t* getKnownToken() {
                 break;
             case CHAIN_KIND_CALLISTO:
                 currentToken = PIC(&TOKENS_CALLISTO[i]);
+                break;
+            case CHAIN_KIND_CALLISTOT:
+                currentToken = PIC(&TOKENS_CALLISTOT[i]);
                 break;
             case CHAIN_KIND_ETHERSOCIAL:
                 currentToken = PIC(&TOKENS_ETHERSOCIAL[i]);

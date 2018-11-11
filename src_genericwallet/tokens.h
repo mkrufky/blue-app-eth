@@ -38,6 +38,7 @@ typedef struct tokenDefinition_t {
 #define NUM_TOKENS_KUSD 0
 #define NUM_TOKENS_MUSICOIN 0
 #define NUM_TOKENS_CALLISTO 0
+#define NUM_TOKENS_CALLISTOT 0
 #define NUM_TOKENS_ETHERGEM 0
 #define NUM_TOKENS_ATHEIOS 0
 #define NUM_TOKENS_GOCHAIN 0
@@ -58,6 +59,7 @@ extern tokenDefinition_t const TOKENS_WANCHAIN[NUM_TOKENS_WANCHAIN];
 extern tokenDefinition_t const TOKENS_KUSD[NUM_TOKENS_KUSD];
 extern tokenDefinition_t const TOKENS_MUSICOIN[NUM_TOKENS_MUSICOIN];
 extern tokenDefinition_t const TOKENS_CALLISTO[NUM_TOKENS_CALLISTO];
+extern tokenDefinition_t const TOKENS_CALLISTOT[NUM_TOKENS_CALLISTOT];
 extern tokenDefinition_t const TOKENS_ETHERGEM[NUM_TOKENS_ETHERGEM];
 extern tokenDefinition_t const TOKENS_ATHEIOS[NUM_TOKENS_ATHEIOS];
 extern tokenDefinition_t const TOKENS_GOCHAIN[NUM_TOKENS_GOCHAIN];
